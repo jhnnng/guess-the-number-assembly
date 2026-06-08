@@ -9,10 +9,10 @@ The _computer_ comes up with a random integer in a defined range and the user ha
 The author of this repository tries to implement this in the _Assembly Language_ for the _x86-64_ architecture.
 
 ## Building and Linking
-The program can be built and linked via
+The program can be built and linked via the Makefile
 
 ```
-nasm -f elf64 -o game.o game.asm && ld -o game game.o
+make
 ```
 
 

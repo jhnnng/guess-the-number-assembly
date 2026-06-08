@@ -1,5 +1,8 @@
 global _start
 
+; functions from io.asm
+extern print_int
+extern read_int
 
 ; machine code
 section .text 
